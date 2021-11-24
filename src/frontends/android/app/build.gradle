@@ -3,12 +3,13 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 30
 
+    ndkVersion = "21.4.7075529"
     defaultConfig {
-        applicationId "org.strongswan.android"
+        applicationId "org.strongswan.managed"
         minSdkVersion 15
         targetSdkVersion 30
-        versionCode 75
-        versionName "2.3.3"
+        versionCode 76
+        versionName "2.3.4"
     }
 
     sourceSets.main {

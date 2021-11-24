@@ -4,3 +4,4 @@ WORKDIR /strongswan
 
 RUN apt-get update
 RUN apt-get install gcc automake autoconf libtool pkg-config gettext perl python flex bison gperf cmake libgmp3-dev -y
+RUN sdkmanager --install "ndk;21.4.7075529"
